@@ -158,8 +158,6 @@ public class GroceryList
            System.out.println("\nWelcome to Grocery List Management!\n1. Add Item to your Grocery List\n2. Remove Item from your Grocery List\n3. \"Check Off\" an Item from your Grocery List\n4. Display your Grocery List\n5. Exit\n");
            System.out.println("Please enter the number of an option above");
        
-//       for(int i = 0; i < 20; i++){System.out.print(" "+groceryList[i]+" ");}
-       
        if(enter.hasNextInt()){
         select = enter.nextInt();
        }
